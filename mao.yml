@@ -1,4 +1,4 @@
-Name: 'Demo project'
+Name: 'Hello'
 Description: 'Sample project to demonstrate the mao execution format.'
 Datadir: 'hello_world'
 Datarepo: 'https://github.com/EcePanos/hello-world-data'

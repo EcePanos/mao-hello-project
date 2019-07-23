@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-mkdir hello_world
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+mkdir "$SCRIPTPATH/hello_world"
 echo "Installed!"

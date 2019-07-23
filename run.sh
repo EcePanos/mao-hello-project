@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-touch hello_world/data.txt
-echo $1 > hello_world/data.txt
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+touch "$SCRIPTPATH/hello_world/data.txt"
+echo $1 > "$SCRIPTPATH/hello_world/data.txt"
 echo "Data generated!"
