@@ -4,7 +4,7 @@ Prototype runner for MAO-MAO framework. The operating principle is to include
 in every MAO-MAO tool:
 - An install script
 - A script that runs the tool with no interactive input besides command-line arguments
-- A `mao.yaml` file with their paths and what arguments they need
+- A `mao.yml` file with their paths and what arguments they need
 
 With these constraints we can install and execute the program from the
 MAO Runner. On its own this is not useful, but, when integrated with the
